@@ -1,0 +1,31 @@
+name: ganesh_portfolio
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  animate_do: ^4.2.0
+  animated_text_kit: ^4.2.3
+  flutter:
+    sdk: flutter
+  flutter_gradient_button: ^0.0.1
+  font_awesome_flutter: ^10.8.0
+  google_fonts: ^6.2.1
+  http: ^1.3.0
+  lottie: ^3.1.3
+  provider: ^6.1.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
