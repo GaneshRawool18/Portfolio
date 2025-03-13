@@ -22,9 +22,9 @@ class _ContactDesktopState extends State<ContactDesktop>
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: Duration(seconds: 6),
+      duration: Duration(milliseconds: 600),
       vsync: this,
-    )..repeat(reverse: true);
+    );
   }
 
   @override
@@ -116,7 +116,7 @@ class _ContactDesktopState extends State<ContactDesktop>
                 Expanded(
                   flex: 1,
                   child: FadeInLeft(
-                    duration: Duration(milliseconds: 800),
+                    duration: Duration(milliseconds: 100),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,

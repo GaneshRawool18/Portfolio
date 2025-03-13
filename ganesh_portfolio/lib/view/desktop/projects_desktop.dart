@@ -50,7 +50,7 @@ class _ProjectsDesktopState extends State<ProjectsDesktop>
     _controller = AnimationController(
       duration: Duration(seconds: 6),
       vsync: this,
-    )..repeat(reverse: true);
+    );
   }
 
   @override
